@@ -264,8 +264,8 @@ class LuckyWars extends PluginBase implements Listener {
                                                 goto sinslots;
                                                 with:
                                                 $slots->save();
-                                                $player->sendTitle("Lucky§6Wars");
-                                                $player->sendSubTitle(" Testing PlanetaPacman");
+                                                $player->sendMessage("Lucky§6Wars");
+                                                $player->sendMessage("Testing BellCraft");
                                                 foreach($level->getPlayers() as $playersinarena)
                                                 {
                                                 $playersinarena->sendMessage($player->getNameTag() ." ha entrado a la partida");
@@ -502,8 +502,8 @@ class GameSender extends PluginTask {
 								{
 									foreach($playersArena as $pl)
 									{
-                                                                                $pl->sendMessage(TE::YELLOW.">".TE::AQUA." Plugin Testing PlanetaPacman");
-                                                                                $pl->sendMessage(TE::YELLOW.">".TE::AQUA."Visita".TE::GREEN." Visita PlanetaPacman.ddns.net");
+                                                                                $pl->sendMessage(TE::YELLOW.">".TE::AQUA." Plugin Testing BellCraft");
+                                                                                $pl->sendMessage(TE::YELLOW.">".TE::AQUA."Visita".TE::GREEN." Visita BellCraft.ddns.net");
 									}
 								}
 								if($time<300)

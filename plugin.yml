@@ -2,7 +2,7 @@ nombre : LuckyWars
 main: BellCranel\LuckyWars\LuckyWars
 author: BellCranel
 version: 2.0 Genisys PlanetaPacman
-api: [3.0.0-APHA5]
+api: [3.0.0-ALPHA5]
 
 commands:
     bc1:
